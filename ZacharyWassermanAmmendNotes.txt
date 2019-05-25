@@ -1,0 +1,27 @@
+NOTE: 
+* Total time was a bit above an hour as this was my first project I have done in react
+* I also changed the formatting of the error message to be more grammatically correct
+Steps I did:
+1. Google what a controlled input is
+2. Set up the binding that is called when we have a change (IE handleChange function)
+3. Set up the this.state object / change "value" in the render
+4. Figure out how to handle data that already exists in a profile and manage to write for a new profile (initializeApp function, I should note that I tried initializing this in the constructor but this didn't work. I feel there's a single way to do this without the initializeApp function.
+5. Figure out how to dynamically display error message. Later create a function for proper formatting.
+6. Validate the state of the isValid / message for just the message
+6.5 (Note, this was something I was stuck on but figured out later) Had code
+/* 
+<div className="profile-form-invalid"{{!this.state.isValid && this.message}}</div>
+{{ths.state.isValid && this.message}}
+*/ 
+I felt that it could be reduced to one line but wasn't sure how to do it at this point.
+7. Fix the styling such that the red border appears on invalid fields dynamically with respect to the state. This led me back to 6.5 with my current answer to the above being at profile.js:128
+8. Change the handleFormSubmit function to accomodate for this.state properties rather than event properties
+9. As a result of 8, changing the addValidationMessage function to accomodate the different input
+10. Verifying everything works as before
+
+Steps to do:
+* Submitting an invalid field, followed by typing in it will result in the filed no longer being red before hitting the 'save' button. 
+* Change the handleChange function from fat arrow to the same way that other functions are called. The 'this' was not being preserved for some reason.
+* Run this through a linter / prettifier, I am not certain that all my code matches the code style of the project
+* Personally, I like to write tests for my functions as well
+
