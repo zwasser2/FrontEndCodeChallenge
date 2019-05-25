@@ -141,7 +141,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-399" />
     <option name="y" value="187" />
     <option name="width" value="2312" />
@@ -208,15 +208,15 @@
       <option name="presentableId" value="Default" />
       <updated>1558803730047</updated>
       <workItem from="1558803731246" duration="14766000" />
-      <workItem from="1558821079083" duration="119000" />
+      <workItem from="1558821079083" duration="366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14885000" />
+    <option name="totallyTimeSpent" value="15132000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2223393" />
